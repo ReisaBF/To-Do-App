@@ -5,7 +5,7 @@ function onReady() {
     const NEW_TODO_TEXT = document.getElementById('newToDoText');
     const TODO_LIST = document.getElementById('toDoList');
 
-    ADD_TODO_FORM.addEventListener('submit', function(event) {
+    ADD_TODO_FORM.addEventListener('submit', function(event){
       event.preventDefault();
 
       // get the text

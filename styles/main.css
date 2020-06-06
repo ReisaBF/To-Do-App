@@ -1,0 +1,55 @@
+body {
+  padding: 5rem;
+}
+
+title {
+  justify-content: center;
+  text-align: center;
+}
+
+ header {
+   background: url(../images/Grass.jpg) center / cover;
+   height: 100vh;
+   justify-content: center;
+   text-align: center;
+   font-weight: regular;
+   font-size: 2rem;
+   font-family: fantasy;
+ }
+
+ h1 {
+   color: rgb(64,64,64);
+   font-family: fantasy;
+   font-weight: bold;
+   font-size: 4rem;
+   justify-content: center;
+   text-align: center;
+ }
+
+button {
+  color: black;
+  font-family: roboto;
+  font-weight: bolder;
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  padding-top:
+}
+
+ main {
+   max-width: 800px;
+ }
+
+ .project-description {
+   padding-left: 0;
+ }
+
+ .project img {
+   width: 100%;
+ }
+
+ @media screen and (max-width: 1024px) {
+   header.mdl-layout__header {
+     display: flex;
+   }
+ }

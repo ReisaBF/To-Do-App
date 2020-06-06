@@ -1,5 +1,7 @@
 body {
-  padding: 5rem;
+  padding: 0rem;
+  justify-content: center;
+  text-align: center;
 }
 
 title {
@@ -8,9 +10,8 @@ title {
 }
 
  header {
-   background: url(../images/Grass.jpg) center / cover;
+   background: url(../images/Grass.png) center / cover;
    height: 100vh;
-   opacity: 0.5;
    justify-content: center;
  }
 
@@ -18,11 +19,7 @@ title {
    font-weight: regular;
    font-size: 2rem;
    font-family: fantasy;
-   color: black;
- }
-
- input {
-
+   color: black
  }
 
  h1 {

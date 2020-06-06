@@ -13,7 +13,7 @@ function onReady() {
       let todoObj = {
         name: title,
         id: toDoId
-      }
+      };
 
       toDoId++;
 

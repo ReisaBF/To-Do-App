@@ -1,5 +1,6 @@
 body {
   padding: 0rem;
+  background: url(../images/Grass.png) center / cover;
 }
 
 title {
@@ -8,8 +9,6 @@ title {
 }
 
  header {
-   background: url(../images/Grass.png) center / cover;
-   height: 100vh;
    justify-content: center;
  }
 
@@ -37,27 +36,23 @@ button {
   font-size: 1rem;
 }
 
-#toDoList {
-  width: 90%;
+ul {
+  width: auto;
   height: 90%;
-  padding-left: 40%;
-  padding-right: 30%;
   color: black;
   font-family: roboto;
   font-weight: bolder;
   font-size: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
-}
-
-#newToDoText {
-  justify-content: center;
-  text-align: center;
-  padding-left: 30px;
 }
 
  main {
-   max-width: 900px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
  }
 
  .project img {
@@ -67,5 +62,6 @@ button {
  @media screen and (max-width: 1024px) {
    header.mdl-layout__header {
      display: flex;
+
    }
  }

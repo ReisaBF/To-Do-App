@@ -1,7 +1,5 @@
 body {
   padding: 0rem;
-  justify-content: center;
-  text-align: center;
 }
 
 title {
@@ -16,14 +14,15 @@ title {
  }
 
  label {
-   font-weight: regular;
-   font-size: 2rem;
+   font-weight: bolder;
+   font-size: 1.8rem;
    font-family: fantasy;
-   color: black
+   color: rgb(64,64,64);
+
  }
 
  h1 {
-   color: rgb(64,64,64);
+   color: teal;
    font-family: fantasy;
    font-weight: bold;
    font-size: 4rem;
@@ -38,20 +37,27 @@ button {
   font-size: 1rem;
 }
 
-#mdl-layout__content {
+#toDoList {
   width: 90%;
+  height: 90%;
+  padding-left: 40%;
+  padding-right: 30%;
+  color: black;
+  font-family: roboto;
+  font-weight: bolder;
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
 }
 
-#toDoList {
-    margin: 0 auto;
+#newToDoText {
+  justify-content: center;
+  text-align: center;
+  padding-left: 30px;
 }
 
  main {
-   max-width: 800px;
- }
-
- .project-description {
-   padding-left: 0;
+   max-width: 900px;
  }
 
  .project img {

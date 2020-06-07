@@ -36,12 +36,14 @@ button {
   font-family: roboto;
   font-weight: bolder;
   font-size: 1rem;
-     justify-content: center;
-     text-align: center;
 }
 
-#addToDoForm {
+#mdl-layout__content {
   width: 90%;
+}
+
+#toDoList {
+    margin: 0 auto;
 }
 
  main {
